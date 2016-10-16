@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 5% auto auto auto;
+    max-width: 300px;
+    background-color: azure;
+    border: 2px solid;
+    width: 100%;
+
+}
+#result,#firstValue{
+    background-color:antiquewhite;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: darkblue;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    margin: 5px;
+    background-color: coral;
+    border-radius: 25%;
+    padding: 5%;
+    flex-grow:2;
+}
+
